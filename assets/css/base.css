@@ -1,0 +1,18 @@
+:root{
+    --blue: #021A84;
+    --red: #FE4C4C;
+    --gray: #F2F2F2;
+    --green: #2ADA66;
+    --orange: #E5532A;
+
+}
+
+html,body{
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.wrapper{
+    max-width: 1160px;
+    margin: 0 auto;
+}

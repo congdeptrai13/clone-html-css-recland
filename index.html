@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>recland</title>
+</head>
+
+<body>
+    <!-- start header -->
+    <div class="header">
+        <div class="wrapper wrapper__header">
+            <div class="header__container">
+                <div class="header__left">
+                    <a href="" class="logo">
+                        <img href="/" src="assets/images/logo-recland.png" alt="">
+                    </a>
+                </div>
+                <div class="header__right">
+                    <a class="btn btn-findjob">Tất cả các job</a>
+                    <a class="btn btn-signup">Đăng ký</a>
+                    <a class="btn btn-signin">Đăng Nhập</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end header -->
+
+    <!-- start banner -->
+    <div class="banner">
+        <img src="assets/images/banner.png" alt="">
+    </div>
+    <!-- end banner -->
+
+    <!-- form-search-layout -->
+    <div class="form-search-layout">
+        <div class="wrapper">
+            <div class="container">
+                <form class="form-search">
+                    <div class="form-search-input">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11 20.5126C15.9706 20.5126 20 16.4832 20 11.5126C20 6.54207 15.9706 2.51263 11 2.51263C6.02944 2.51263 2 6.54207 2 11.5126C2 16.4832 6.02944 20.5126 11 20.5126Z"
+                                stroke="#999999" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M18.9299 21.2024C19.4599 22.8024 20.6699 22.9624 21.5999 21.5624C22.4499 20.2824 21.8899 19.2324 20.3499 19.2324C19.2099 19.2224 18.5699 20.1124 18.9299 21.2024Z"
+                                stroke="#999999" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <input type="text" name="" id="" placeholder="Nhập vị trí  hoặc từ khóa...">
+                    </div>
+                    <div class="form-select-input">
+                        <svg class="left" width="24" height="25" viewBox="0 0 24 25" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M14.5 11.0131C14.5 9.63187 13.3808 8.51263 12.0005 8.51263C10.6192 8.51263 9.5 9.63187 9.5 11.0131C9.5 12.3934 10.6192 13.5126 12.0005 13.5126C13.3808 13.5126 14.5 12.3934 14.5 11.0131Z"
+                                stroke="#999999" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.9995 21.5126C10.801 21.5126 4.5 16.411 4.5 11.0759C4.5 6.89927 7.8571 3.51263 11.9995 3.51263C16.1419 3.51263 19.5 6.89927 19.5 11.0759C19.5 16.411 13.198 21.5126 11.9995 21.5126Z"
+                                stroke="#999999" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <input type="text" placeholder="Chọn địa điểm">
+                        <svg class="right" width="24" height="25" viewBox="0 0 24 25" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M19.92 9.46265L13.4 15.9826C12.63 16.7526 11.37 16.7526 10.6 15.9826L4.07996 9.46265"
+                                stroke="#999999" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div class="form-search-button">
+                        <a class="btn btn-signin">Tìm Kiếm</a>
+                    </div>
+                </form>
+                <div class="recommend">
+                    <span>đề xuất:</span>
+                    <ul>
+                        <li>Reactjs</li>
+                        <li>VueJS</li>
+                        <li>Angular</li>
+                        <li>Design</li>
+                        <li>.NET</li>
+                        <li>PHP</li>
+                        <li>java</li>
+                        <li>Mobile</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end form-search-layout -->
+
+    <!-- start best-job -->
+    <div class="best-job-full">
+        <div class="wrapper">
+            <div class="container">
+                <div class="best-job-title">
+                    <div class="best-job-title-left">
+                        <svg width="67" height="67" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.0526123" y="0.0526123" width="52.8947" height="52.8947" rx="26.4474"
+                                fill="white" />
+                            <path
+                                d="M38.2867 22.6034C38.2867 30.855 30.6522 35.7213 27.2317 36.885C26.8262 37.0261 26.1738 37.0261 25.7683 36.885C24.3048 36.3913 22.0656 35.21 20.0027 33.3939C17.217 30.9431 14.7133 27.3287 14.7133 22.6034C14.7133 18.9537 17.6401 16.0092 21.2546 16.0092C23.4056 16.0092 25.3099 17.0495 26.5088 18.6363C27.6901 17.0495 29.5943 16.0092 31.7454 16.0092C32.6799 16.0092 33.5614 16.2032 34.3725 16.5558C36.6822 17.5784 38.2867 19.8881 38.2867 22.6034Z"
+                                fill="#FE4C4C" />
+                        </svg>
+                        <h2>Jobs tốt nhất</h2>
+                    </div>
+                    <div class="best-job-title-right">
+                        <a href="">Xem Tất Cả</a>
+                    </div>
+                </div>
+
+                <ul class="list__job__card">
+                    <li class="card__item">
+                        <div class="card__item-title">
+                            <div class="card__item-title-left">
+                                <img src="assets/images/unsplash_5MlBMYDsGBY.png" alt="">
+                                <span>Data Engineer</span>
+                            </div>
+                            <div class="card__item-title-right">
+                                <span>Full-time</span>
+                            </div>
+                        </div>
+                        <div class="card__item-bonus">
+                            <div class="card__item-bonus-salary">
+                                <p>Hoa hồng</p>
+                                <p>12,000,000 <span>VNĐ</span></p>
+                            </div>
+                            <div class="card__item-bonus-reward">
+                                <p>Thưởng</p>
+                                <p>50,000,000 <span>VNĐ</span></p>
+                            </div>
+                        </div>
+                        <div class="card__item-site">
+                            <div class="card__item-site-left">
+                                <span>Hà Nội</span>
+                                <span>Onboard</span>
+                            </div>
+                            <div class="card__item-site-right">
+                                <span>PREMIUM</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card__item">
+                        <div class="card__item-title">
+                            <div class="card__item-title-left">
+                                <img src="assets/images/unsplash_5MlBMYDsGBY.png" alt="">
+                                <span>Junior PHP Developer ~ 15-2...</span>
+                            </div>
+                            <div class="card__item-title-right">
+                                <span>Full-time</span>
+                            </div>
+                        </div>
+                        <div class="card__item-bonus">
+                            <div class="card__item-bonus-salary">
+                                <p>Hoa hồng</p>
+                                <p>12,000,000 <span>VNĐ</span></p>
+                            </div>
+                            <div class="card__item-bonus-reward">
+                                <p>Thưởng</p>
+                                <p>50,000,000 <span>VNĐ</span></p>
+                            </div>
+                        </div>
+                        <div class="card__item-site">
+                            <div class="card__item-site-left">
+                                <span>Hà Nội</span>
+                                <span>Onboard</span>
+                            </div>
+                            <div class="card__item-site-right">
+                                <span>PREMIUM</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card__item">
+                        <div class="card__item-title">
+                            <div class="card__item-title-left">
+                                <img src="assets/images/unsplash_5MlBMYDsGBY.png" alt="">
+                                <span>Senior PHP Developer ~ Upto 40M </span>
+                            </div>
+                            <div class="card__item-title-right">
+                                <span>Full-time</span>
+                            </div>
+                        </div>
+                        <div class="card__item-bonus">
+                            <div class="card__item-bonus-salary">
+                                <p>Hoa hồng</p>
+                                <p>12,000,000 <span>VNĐ</span></p>
+                            </div>
+                            <div class="card__item-bonus-reward">
+                                <p>Thưởng</p>
+                                <p>50,000,000 <span>VNĐ</span></p>
+                            </div>
+                        </div>
+                        <div class="card__item-site">
+                            <div class="card__item-site-left">
+                                <span>Hà Nội</span>
+                                <span>Onboard</span>
+                            </div>
+                            <div class="card__item-site-right">
+                                <span>PREMIUM</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card__item">
+                        <div class="card__item-title">
+                            <div class="card__item-title-left">
+                                <img src="assets/images/unsplash_5MlBMYDsGBY.png" alt="">
+                                <span>Java Software Engineer (multiple positions)</span>
+                            </div>
+                            <div class="card__item-title-right">
+                                <span>Full-time</span>
+                            </div>
+                        </div>
+                        <div class="card__item-bonus">
+                            <div class="card__item-bonus-salary">
+                                <p>Hoa hồng</p>
+                                <p>12,000,000 <span>VNĐ</span></p>
+                            </div>
+                            <div class="card__item-bonus-reward">
+                                <p>Thưởng</p>
+                                <p>50,000,000 <span>VNĐ</span></p>
+                            </div>
+                        </div>
+                        <div class="card__item-site">
+                            <div class="card__item-site-left">
+                                <span>Hà Nội</span>
+                                <span>Onboard</span>
+                            </div>
+                            <div class="card__item-site-right">
+                                <span>PREMIUM</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card__item">
+                        <div class="card__item-title">
+                            <div class="card__item-title-left">
+                                <img src="assets/images/unsplash_5MlBMYDsGBY.png" alt="">
+                                <span>Senior Fullstack Engineer
+                                </span>
+                            </div>
+                            <div class="card__item-title-right">
+                                <span>Full-time</span>
+                            </div>
+                        </div>
+                        <div class="card__item-bonus">
+                            <div class="card__item-bonus-salary">
+                                <p>Hoa hồng</p>
+                                <p>12,000,000 <span>VNĐ</span></p>
+                            </div>
+                            <div class="card__item-bonus-reward">
+                                <p>Thưởng</p>
+                                <p>50,000,000 <span>VNĐ</span></p>
+                            </div>
+                        </div>
+                        <div class="card__item-site">
+                            <div class="card__item-site-left">
+                                <span>Hà Nội</span>
+                                <span>Onboard</span>
+                            </div>
+                            <div class="card__item-site-right">
+                                <span>PREMIUM</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card__item">
+                        <div class="card__item-title">
+                            <div class="card__item-title-left">
+                                <img src="assets/images/unsplash_5MlBMYDsGBY.png" alt="">
+                                <span>C++ Network Software Engineer</span>
+                            </div>
+                            <div class="card__item-title-right">
+                                <span>Full-time</span>
+                            </div>
+                        </div>
+                        <div class="card__item-bonus">
+                            <div class="card__item-bonus-salary">
+                                <p>Hoa hồng</p>
+                                <p>12,000,000 <span>VNĐ</span></p>
+                            </div>
+                            <div class="card__item-bonus-reward">
+                                <p>Thưởng</p>
+                                <p>50,000,000 <span>VNĐ</span></p>
+                            </div>
+                        </div>
+                        <div class="card__item-site">
+                            <div class="card__item-site-left">
+                                <span>Hà Nội</span>
+                                <span>Onboard</span>
+                            </div>
+                            <div class="card__item-site-right">
+                                <span>PREMIUM</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card__item">
+                        <div class="card__item-title">
+                            <div class="card__item-title-left">
+                                <img src="assets/images/unsplash_5MlBMYDsGBY.png" alt="">
+                                <span>Junior PHP Developer ~ 15-2...</span>
+                            </div>
+                            <div class="card__item-title-right">
+                                <span>Full-time</span>
+                            </div>
+                        </div>
+                        <div class="card__item-bonus">
+                            <div class="card__item-bonus-salary">
+                                <p>Hoa hồng</p>
+                                <p>12,000,000 <span>VNĐ</span></p>
+                            </div>
+                            <div class="card__item-bonus-reward">
+                                <p>Thưởng</p>
+                                <p>50,000,000 <span>VNĐ</span></p>
+                            </div>
+                        </div>
+                        <div class="card__item-site">
+                            <div class="card__item-site-left">
+                                <span>Hà Nội</span>
+                                <span>Onboard</span>
+                            </div>
+                            <div class="card__item-site-right">
+                                <span>PREMIUM</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card__item">
+                        <div class="card__item-title">
+                            <div class="card__item-title-left">
+                                <img src="assets/images/unsplash_5MlBMYDsGBY.png" alt="">
+                                <span>Junior PHP Developer ~ 15-2...</span>
+                            </div>
+                            <div class="card__item-title-right">
+                                <span>Full-time</span>
+                            </div>
+                        </div>
+                        <div class="card__item-bonus">
+                            <div class="card__item-bonus-salary">
+                                <p>Hoa hồng</p>
+                                <p>12,000,000 <span>VNĐ</span></p>
+                            </div>
+                            <div class="card__item-bonus-reward">
+                                <p>Thưởng</p>
+                                <p>50,000,000 <span>VNĐ</span></p>
+                            </div>
+                        </div>
+                        <div class="card__item-site">
+                            <div class="card__item-site-left">
+                                <span>Hà Nội</span>
+                                <span>Onboard</span>
+                            </div>
+                            <div class="card__item-site-right">
+                                <span>PREMIUM</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card__item">
+                        <div class="card__item-title">
+                            <div class="card__item-title-left">
+                                <img src="assets/images/unsplash_5MlBMYDsGBY.png" alt="">
+                                <span>Junior PHP Developer ~ 15-2...</span>
+                            </div>
+                            <div class="card__item-title-right">
+                                <span>Full-time</span>
+                            </div>
+                        </div>
+                        <div class="card__item-bonus">
+                            <div class="card__item-bonus-salary">
+                                <p>Hoa hồng</p>
+                                <p>12,000,000 <span>VNĐ</span></p>
+                            </div>
+                            <div class="card__item-bonus-reward">
+                                <p>Thưởng</p>
+                                <p>50,000,000 <span>VNĐ</span></p>
+                            </div>
+                        </div>
+                        <div class="card__item-site">
+                            <div class="card__item-site-left">
+                                <span>Hà Nội</span>
+                                <span>Onboard</span>
+                            </div>
+                            <div class="card__item-site-right">
+                                <span>PREMIUM</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- end best-job -->
+
+    <!-- start why choose -->
+    <div class="why-choose-full">
+        <div class="wrapper">
+            <div class="container">
+                <p>why?</p>
+                <h2>Tại Sao Lựa Chọn Recland?</h2>
+                <div class="why-choose">
+                    <div class="why-choose-job">
+                        <svg width="55" height="54" viewBox="0 0 55 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_2_222)">
+                                <path
+                                    d="M54.6665 49.3606C54.49 49.9274 54.3886 50.5323 54.1244 51.0537C52.4609 54.3385 48.3835 54.9984 45.7604 52.4148C43.8306 50.5144 41.9135 48.6012 40.0185 46.6659C38.3867 44.9981 37.9587 43.0533 38.8084 40.8504C38.8613 40.714 38.8803 40.4718 38.801 40.3904C37.7135 39.2704 36.607 38.1695 35.4846 37.0442C30.0778 41.4543 23.9744 43.0459 17.1989 41.6203C12.0478 40.5363 7.869 37.7718 4.75445 33.5257C-1.56977 24.9013 -0.48649 12.8653 7.50228 5.4962C15.1634 -1.57147 27.1999 -1.84749 35.1718 4.81619C38.075 7.24329 40.2014 10.2341 41.5024 13.8044C42.8076 17.3895 43.1056 21.055 42.4419 24.8062C41.7814 28.5436 40.1813 31.8389 37.7326 34.7546C37.8224 34.8688 37.8879 34.9693 37.9703 35.0529C38.9501 36.0385 39.9245 37.0284 40.9221 37.995C41.0468 38.1155 41.3333 38.1991 41.4844 38.142C43.7281 37.2854 45.6917 37.72 47.3848 39.3962C49.2713 41.265 51.1324 43.1601 53.0221 45.0256C53.9479 45.9394 54.4319 47.054 54.6655 48.3051C54.6665 48.6562 54.6665 49.0084 54.6665 49.3606ZM36.0088 21.0434C36.068 20.9471 36.1113 20.871 36.1589 20.797C37.9016 18.0864 36.2054 14.6282 33.001 14.4199C31.793 14.3416 30.5766 14.3691 29.3644 14.3934C28.4058 14.4125 27.7812 15.0523 27.778 16.0062C27.7654 19.365 27.7654 22.7249 27.778 26.0837C27.7823 27.0503 28.446 27.6996 29.413 27.7145C30.5206 27.7314 31.6282 27.7451 32.7347 27.7113C34.3263 27.6616 35.5808 26.9795 36.347 25.5517C37.1745 24.0077 36.9928 22.5081 36.0088 21.0434ZM16.661 21.0159C16.6959 21.019 16.7318 21.0222 16.7667 21.0254C16.7667 21.6938 16.7593 22.3621 16.7677 23.0305C16.7941 24.9384 17.6238 26.3629 19.3295 27.2481C21.9949 28.6324 25.5132 26.7997 25.7563 23.8057C25.9042 21.992 25.8789 20.1497 25.7626 18.3318C25.6347 16.3235 23.8634 14.6219 21.9336 14.4315C19.6307 14.2041 17.5783 15.4214 17.0351 17.5259C16.7455 18.6469 16.7751 19.8494 16.661 21.0159ZM11.6356 17.5069C11.6504 17.7797 11.6673 17.9511 11.6673 18.1224C11.6695 19.8092 11.6695 21.4971 11.6684 23.1839C11.6673 24.0616 11.3672 24.5058 10.7595 24.5418C10.193 24.5746 9.87069 24.1981 9.7259 23.334C9.60119 22.5906 8.9787 22.0428 8.23151 22.0184C7.46951 21.9941 6.80898 22.4721 6.65574 23.2198C6.59444 23.5191 6.62403 23.8459 6.65785 24.1558C6.87239 26.1546 8.73351 27.7599 10.769 27.7145C12.8658 27.6679 14.7153 26.0266 14.7766 23.9929C14.858 21.3067 14.8305 18.6163 14.8147 15.928C14.8094 15.0185 14.1858 14.4188 13.2716 14.3945C12.1313 14.3649 10.9888 14.3829 9.84744 14.3924C9.65932 14.3945 9.46168 14.4357 9.28413 14.5024C8.63417 14.7488 8.22833 15.4098 8.29175 16.0824C8.36256 16.8301 8.87724 17.4255 9.62338 17.4942C10.2691 17.5545 10.9212 17.5069 11.6356 17.5069Z"
+                                    fill="#2ADA66" />
+                                <path
+                                    d="M54.6665 49.3606C54.49 49.9274 54.3886 50.5323 54.1244 51.0537C52.4609 54.3385 48.3835 54.9984 45.7604 52.4148C43.8306 50.5144 41.9135 48.6012 40.0185 46.6659C38.3867 44.9981 37.9587 43.0533 38.8084 40.8504C38.8613 40.714 38.8803 40.4718 38.801 40.3904C37.7135 39.2704 36.607 38.1695 35.4846 37.0442C30.0778 41.4543 23.9744 43.0459 17.1989 41.6203C12.0478 40.5363 7.869 37.7718 4.75445 33.5257C-1.56977 24.9013 -0.48649 12.8653 7.50228 5.4962C15.1634 -1.57147 27.1999 -1.84749 35.1718 4.81619C38.075 7.24329 40.2014 10.2341 41.5024 13.8044C42.8076 17.3895 43.1056 21.055 42.4419 24.8062C41.7814 28.5436 40.1813 31.8389 37.7326 34.7546C37.8224 34.8688 37.8879 34.9693 37.9703 35.0529C38.9501 36.0385 39.9245 37.0284 40.9221 37.995C41.0468 38.1155 41.3333 38.1991 41.4844 38.142C43.7281 37.2854 45.6917 37.72 47.3848 39.3962C49.2713 41.265 51.1324 43.1601 53.0221 45.0256C53.9479 45.9394 54.4319 47.054 54.6655 48.3051C54.6665 48.6562 54.6665 49.0084 54.6665 49.3606ZM36.0088 21.0434C36.068 20.9471 36.1113 20.871 36.1589 20.797C37.9016 18.0864 36.2054 14.6282 33.001 14.4199C31.793 14.3416 30.5766 14.3691 29.3644 14.3934C28.4058 14.4125 27.7812 15.0523 27.778 16.0062C27.7654 19.365 27.7654 22.7249 27.778 26.0837C27.7823 27.0503 28.446 27.6996 29.413 27.7145C30.5206 27.7314 31.6282 27.7451 32.7347 27.7113C34.3263 27.6616 35.5808 26.9795 36.347 25.5517C37.1745 24.0077 36.9928 22.5081 36.0088 21.0434ZM16.661 21.0159C16.6959 21.019 16.7318 21.0222 16.7667 21.0254C16.7667 21.6938 16.7593 22.3621 16.7677 23.0305C16.7941 24.9384 17.6238 26.3629 19.3295 27.2481C21.9949 28.6324 25.5132 26.7997 25.7563 23.8057C25.9042 21.992 25.8789 20.1497 25.7626 18.3318C25.6347 16.3235 23.8634 14.6219 21.9336 14.4315C19.6307 14.2041 17.5783 15.4214 17.0351 17.5259C16.7455 18.6469 16.7751 19.8494 16.661 21.0159ZM11.6356 17.5069C11.6504 17.7797 11.6673 17.9511 11.6673 18.1224C11.6695 19.8092 11.6695 21.4971 11.6684 23.1839C11.6673 24.0616 11.3672 24.5058 10.7595 24.5418C10.193 24.5746 9.87069 24.1981 9.7259 23.334C9.60119 22.5906 8.9787 22.0428 8.23151 22.0184C7.46951 21.9941 6.80898 22.4721 6.65574 23.2198C6.59444 23.5191 6.62403 23.8459 6.65785 24.1558C6.87239 26.1546 8.73351 27.7599 10.769 27.7145C12.8658 27.6679 14.7153 26.0266 14.7766 23.9929C14.858 21.3067 14.8305 18.6163 14.8147 15.928C14.8094 15.0185 14.1858 14.4188 13.2716 14.3945C12.1313 14.3649 10.9888 14.3829 9.84744 14.3924C9.65932 14.3945 9.46168 14.4357 9.28413 14.5024C8.63417 14.7488 8.22833 15.4098 8.29175 16.0824C8.36256 16.8301 8.87724 17.4255 9.62338 17.4942C10.2691 17.5545 10.9212 17.5069 11.6356 17.5069Z"
+                                    fill="black" fill-opacity="0.5" />
+                                <path
+                                    d="M36.009 21.0433C36.9929 22.508 37.1747 24.0076 36.3461 25.5517C35.5799 26.9794 34.3265 27.6615 32.7338 27.7112C31.6272 27.7461 30.5197 27.7313 29.4121 27.7144C28.4451 27.6996 27.7813 27.0502 27.7771 26.0836C27.7644 22.7248 27.7644 19.365 27.7771 16.0062C27.7803 15.0522 28.406 14.4124 29.3635 14.3934C30.5757 14.3691 31.7921 14.3416 33.0001 14.4198C36.2045 14.6271 37.9018 18.0853 36.158 20.7969C36.1115 20.8699 36.0671 20.946 36.009 21.0433ZM30.9561 19.5024C31.6769 19.4686 32.3427 19.4813 32.9938 19.3914C33.4651 19.3258 33.6945 18.9493 33.6828 18.4724C33.6723 18.0176 33.4281 17.6538 32.9885 17.6094C32.3227 17.5428 31.6442 17.5914 30.9551 17.5914C30.9561 18.2207 30.9561 18.8108 30.9561 19.5024ZM30.9625 24.5322C31.6125 24.5322 32.2413 24.5724 32.8617 24.5195C33.3457 24.4783 33.6511 24.1557 33.6828 23.646C33.7135 23.1627 33.4704 22.7618 33.0223 22.7047C32.3438 22.6191 31.6463 22.6825 30.9625 22.6825C30.9625 23.3202 30.9625 23.9093 30.9625 24.5322Z"
+                                    fill="#AAF0C2" />
+                                <path
+                                    d="M16.6611 21.0158C16.7753 19.8504 16.7467 18.6469 17.0353 17.5259C17.5785 15.4224 19.6309 14.2051 21.9338 14.4314C23.8636 14.6218 25.6349 16.3224 25.7628 18.3317C25.879 20.1497 25.9033 21.9919 25.7564 23.8056C25.5123 26.8006 21.9951 28.6323 19.3297 27.248C17.6239 26.3618 16.7943 24.9372 16.7679 23.0304C16.7584 22.3621 16.65 21.7988 16.65 21.1304C16.65 21.1304 16.65 21.0401 16.6611 21.0158ZM19.9321 21.0295C19.931 21.0295 19.931 21.0295 19.93 21.0295C19.93 21.6789 19.93 22.3282 19.93 22.9776C19.93 23.0125 19.93 23.0474 19.931 23.0833C19.9617 23.9251 20.5208 24.5343 21.2754 24.5491C22.0469 24.5639 22.681 23.9357 22.6915 23.0939C22.7085 21.7244 22.7085 20.3548 22.6905 18.9863C22.6799 18.1625 22.0765 17.5608 21.3134 17.5576C20.5419 17.5544 19.9575 18.1414 19.9363 18.9758C19.9184 19.66 19.9321 20.3442 19.9321 21.0295Z"
+                                    fill="#AAF0C2" />
+                                <path
+                                    d="M11.6358 17.5068C10.9214 17.5068 10.2682 17.5544 9.62565 17.4941C8.87951 17.4254 8.36483 16.83 8.29402 16.0823C8.22955 15.4097 8.63644 14.7487 9.2864 14.5023C9.4629 14.4357 9.66053 14.3934 9.84971 14.3923C10.9911 14.3817 12.1336 14.3638 13.2739 14.3944C14.1881 14.4188 14.8116 15.0173 14.8169 15.9279C14.8328 18.6162 14.8603 21.3066 14.7789 23.9928C14.7176 26.0265 12.8681 27.6678 10.7713 27.7144C8.73578 27.7599 6.87466 26.1545 6.66012 24.1557C6.62736 23.8458 6.59671 23.519 6.658 23.2198C6.81231 22.4721 7.47178 21.994 8.23378 22.0184C8.98097 22.0427 9.60452 22.5916 9.72817 23.334C9.87296 24.198 10.1953 24.5745 10.7618 24.5417C11.3684 24.5068 11.6696 24.0616 11.6707 23.1838C11.6728 21.497 11.6717 19.8091 11.6696 18.1223C11.6686 17.951 11.6506 17.7797 11.6358 17.5068Z"
+                                    fill="#AAF0C2" />
+                                <path
+                                    d="M30.9561 19.5024C30.9561 18.8108 30.9561 18.2207 30.9561 17.5914C31.6452 17.5914 32.3237 17.5417 32.9895 17.6094C33.4292 17.6538 33.6733 18.0176 33.6839 18.4724C33.6945 18.9493 33.4651 19.3269 32.9948 19.3914C32.3427 19.4813 31.6769 19.4686 30.9561 19.5024Z"
+                                    fill="#2ADA66" />
+                                <path
+                                    d="M30.9561 19.5024C30.9561 18.8108 30.9561 18.2207 30.9561 17.5914C31.6452 17.5914 32.3237 17.5417 32.9895 17.6094C33.4292 17.6538 33.6733 18.0176 33.6839 18.4724C33.6945 18.9493 33.4651 19.3269 32.9948 19.3914C32.3427 19.4813 31.6769 19.4686 30.9561 19.5024Z"
+                                    fill="black" fill-opacity="0.5" />
+                                <path
+                                    d="M30.9625 24.5322C30.9625 23.9093 30.9625 23.3202 30.9625 22.6825C31.6473 22.6825 32.3438 22.6191 33.0223 22.7047C33.4694 22.7618 33.7124 23.1627 33.6828 23.646C33.6501 24.1557 33.3457 24.4783 32.8617 24.5195C32.2402 24.5724 31.6125 24.5322 30.9625 24.5322Z"
+                                    fill="#2ADA66" />
+                                <path
+                                    d="M30.9625 24.5322C30.9625 23.9093 30.9625 23.3202 30.9625 22.6825C31.6473 22.6825 32.3438 22.6191 33.0223 22.7047C33.4694 22.7618 33.7124 23.1627 33.6828 23.646C33.6501 24.1557 33.3457 24.4783 32.8617 24.5195C32.2402 24.5724 31.6125 24.5322 30.9625 24.5322Z"
+                                    fill="black" fill-opacity="0.5" />
+                                <path
+                                    d="M19.9321 21.0296C19.9321 20.3453 19.9173 19.66 19.9353 18.9758C19.9575 18.1414 20.5419 17.5544 21.3123 17.5576C22.0754 17.5608 22.6789 18.1625 22.6894 18.9863C22.7074 20.3559 22.7063 21.7254 22.6905 23.0939C22.6799 23.9357 22.0469 24.5639 21.2743 24.5491C20.5197 24.5343 19.9617 23.9241 19.93 23.0833C19.9289 23.0484 19.9289 23.0135 19.9289 22.9776C19.9289 22.3282 19.9289 21.6789 19.9289 21.0296C19.931 21.0296 19.9321 21.0296 19.9321 21.0296Z"
+                                    fill="#2ADA66" />
+                                <path
+                                    d="M19.9321 21.0296C19.9321 20.3453 19.9173 19.66 19.9353 18.9758C19.9575 18.1414 20.5419 17.5544 21.3123 17.5576C22.0754 17.5608 22.6789 18.1625 22.6894 18.9863C22.7074 20.3559 22.7063 21.7254 22.6905 23.0939C22.6799 23.9357 22.0469 24.5639 21.2743 24.5491C20.5197 24.5343 19.9617 23.9241 19.93 23.0833C19.9289 23.0484 19.9289 23.0135 19.9289 22.9776C19.9289 22.3282 19.9289 21.6789 19.9289 21.0296C19.931 21.0296 19.9321 21.0296 19.9321 21.0296Z"
+                                    fill="black" fill-opacity="0.5" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_2_222">
+                                    <rect width="54" height="54" fill="white" transform="translate(0.666687)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <h5>Đa dạng việc làm, thêm nhiều lựa chọn hấp dẫn</h5>
+                        <p>
+                            Hơn 200+ việc làm IT, giúp các bạn REC có một kho việc làm để các bạn tìm kiếm, sale jobs
+                            đến
+                            những ứng viên phù hợp.
+                        </p>
+                    </div>
+                    <div class="why-choose-salary">
+                        <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="27" cy="27" r="27" fill="#021A84" />
+                            <circle cx="27" cy="27" r="27" fill="black" fill-opacity="0.5" />
+                            <path d="M26.2728 8.52623V27.7104V46.8946" stroke="#9AA3CE" stroke-width="2.13158"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M15.6316 35.1599C15.6316 39.2845 18.797 42.6097 22.7297 42.6097H30.7551C34.1763 42.6097 36.958 39.7001 36.958 36.1191C36.958 32.2183 35.2634 30.8434 32.7375 29.9482L19.8521 25.4718C17.3262 24.5766 15.6316 23.2017 15.6316 19.3009C15.6316 15.7199 18.4133 12.8103 21.8345 12.8103H29.8599C33.7926 12.8103 36.958 16.1355 36.958 20.2601"
+                                stroke="#9AA3CE" stroke-width="2.13158" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+
+                        <h5>Cơ chế hoa hồng hấp dẫn, rõ ràng và minh bạch</h5>
+                        <p>
+                            RecLand đem đến cho các bạn REC mức hoa hồng hấp dẫn, giúp cho các bạn REC có được mức thu
+                            nhập
+                            tương xứng mà không cần đến công ty làm việc
+                        </p>
+                    </div>
+                    <div class="why-choose-network">
+                        <svg width="55" height="54" viewBox="0 0 55 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_2_232)">
+                                <path
+                                    d="M21.5929 28.2688C25.4699 28.2688 29.2807 28.2688 33.1864 28.2688C33.1048 28.9573 33.0861 29.649 32.9296 30.3088C32.6364 31.5467 32.2595 32.7647 31.9256 33.9927C31.843 34.2939 31.6843 34.3899 31.3669 34.337C28.6834 33.889 26 33.9045 23.3121 34.3193C23.1578 34.3436 22.8691 34.2189 22.8195 34.0931C22.091 32.2451 21.7461 30.3121 21.5929 28.2688Z"
+                                    fill="#E5532A" />
+                                <path
+                                    d="M33.1698 25.729C29.2961 25.729 25.472 25.729 21.5994 25.729C21.5719 24.3477 21.8672 23.0369 22.1978 21.7361C22.4557 20.7222 22.4756 20.7244 23.5258 20.88C26.2512 21.2838 28.971 21.2672 31.6853 20.784C32.0269 20.7233 32.2308 20.7685 32.3069 21.1613C32.5813 22.5724 32.881 23.9781 33.1665 25.387C33.1874 25.4874 33.1698 25.5955 33.1698 25.729Z"
+                                    fill="#E5532A" />
+                                <path
+                                    d="M50.55 35.2339C50.4564 35.5031 50.3495 35.8727 50.2018 36.2247C47.6043 42.4087 43.2578 46.898 37.1613 49.6828C36.7304 49.8803 36.2709 50.0237 35.8124 50.1506C35.116 50.3437 34.5385 50.0325 34.3269 49.3871C34.1462 48.8377 34.4591 48.275 35.1248 48.0212C37.1779 47.239 39.0921 46.2074 40.8411 44.8724C44.1417 42.3524 46.5573 39.1606 48.1057 35.3079C48.2005 35.0706 48.2809 34.8246 48.4044 34.6017C48.6578 34.1428 49.1868 33.9265 49.6728 34.0567C50.1819 34.1924 50.5412 34.6326 50.55 35.2339Z"
+                                    fill="#E5532A" />
+                                <path
+                                    d="M5.38071 33.9938C5.84357 34.0082 6.19512 34.3248 6.39459 34.861C7.22333 37.0941 8.38267 39.1429 9.87153 40.9998C12.3963 44.1497 15.536 46.4633 19.2995 47.9241C20.1988 48.2728 20.5635 48.8123 20.3244 49.4522C20.0533 50.1804 19.413 50.3944 18.4972 50.0281C11.6998 47.3063 6.94561 42.5444 4.27206 35.715C3.90508 34.7761 4.36463 33.9971 5.38071 33.9938Z"
+                                    fill="#E5532A" />
+                                <path
+                                    d="M5.24073 20.0062C4.37453 19.9962 3.91388 19.2228 4.25441 18.3192C5.60551 14.7214 7.68616 11.6089 10.4887 8.98308C12.8481 6.77207 15.5393 5.08953 18.5644 3.95093C18.8609 3.83949 19.2157 3.76998 19.521 3.81963C20.0158 3.90017 20.3244 4.27088 20.3795 4.77068C20.4379 5.30137 20.1778 5.68863 19.6918 5.90818C18.808 6.30868 17.8955 6.65622 17.0381 7.10747C11.9907 9.76312 8.47082 13.788 6.40118 19.097C6.14992 19.7392 5.79947 20.0128 5.24073 20.0062Z"
+                                    fill="#E5532A" />
+                                <path
+                                    d="M12.1274 28.2754C14.4803 28.2754 16.799 28.2754 19.1474 28.2754C19.2598 30.5537 19.7304 32.7328 20.5272 34.9029C20.2671 34.9868 20.0236 35.0453 19.7976 35.1424C18.5711 35.6675 17.3423 36.1883 16.1301 36.7444C15.8413 36.8768 15.6959 36.8712 15.4942 36.6175C13.7001 34.3425 12.5517 31.7994 12.2321 28.9021C12.2101 28.7046 12.1671 28.5093 12.1274 28.2754Z"
+                                    fill="#E5532A" />
+                                <path
+                                    d="M34.3799 34.8566C34.8284 32.7294 35.2891 30.5416 35.7651 28.2831C37.902 28.2831 40.1854 28.2831 42.6066 28.2831C42.46 29.0985 42.3642 29.9061 42.1658 30.6883C41.6126 32.8652 40.6119 34.8235 39.2002 36.5734C38.971 36.8569 38.8167 36.8768 38.4828 36.7179C37.0997 36.0581 35.6935 35.4469 34.3799 34.8566Z"
+                                    fill="#E5532A" />
+                                <path
+                                    d="M35.5679 3.78873C35.677 3.82073 35.8742 3.86266 36.0605 3.93547C42.8854 6.63525 47.6672 11.3905 50.3738 18.2243C50.6945 19.0342 50.4652 19.6509 49.7886 19.9014C49.1329 20.1452 48.5719 19.8352 48.2623 19.0573C45.7816 12.8281 41.445 8.46122 35.202 6.00527C34.5319 5.74158 34.23 5.27709 34.349 4.72323C34.4702 4.15724 34.9265 3.7788 35.5679 3.78873Z"
+                                    fill="#E5532A" />
+                                <path
+                                    d="M15.0588 17.9728C16.7571 18.7451 18.3991 19.4909 20.007 20.2224C19.6918 21.9866 19.3634 23.8258 19.0251 25.7191C16.81 25.7191 14.4924 25.7191 12.1428 25.7191C12.4029 22.813 13.3804 20.2136 15.0588 17.9728Z"
+                                    fill="#E5532A" />
+                                <path
+                                    d="M34.6653 20.2301C36.293 19.4898 37.9196 18.7495 39.6123 17.9794C41.2908 20.1981 42.3024 22.7821 42.5713 25.718C40.2339 25.718 37.9538 25.718 35.7056 25.718C35.353 23.8611 35.0025 22.0098 34.6653 20.2301Z"
+                                    fill="#E5532A" />
+                                <path
+                                    d="M27.3224 53.9989C25.6263 54.0276 23.8576 52.7191 23.8234 50.5114C23.7936 48.6346 25.4258 47.0492 27.3169 47.0624C29.2245 47.0757 30.8291 48.4625 30.8302 50.5323C30.8324 52.7731 28.9942 54.0375 27.3224 53.9989Z"
+                                    fill="#E5532A" />
+                                <path
+                                    d="M27.3312 0.00110498C29.0305 -0.035304 30.8434 1.26549 30.8302 3.4754C30.8181 5.57829 29.1859 6.92763 27.3069 6.93646C25.4158 6.94418 23.7848 5.34991 23.8223 3.47871C23.8675 1.26218 25.6418 -0.035304 27.3312 0.00110498Z"
+                                    fill="#E5532A" />
+                                <path
+                                    d="M7.2939 26.9779C7.30382 28.9065 5.78851 30.4533 3.86986 30.4732C1.95011 30.4931 0.341126 28.9473 0.333412 27.0761C0.324595 25.0935 1.86745 23.5257 3.82688 23.5257C5.75215 23.5268 7.28398 25.0516 7.2939 26.9779Z"
+                                    fill="#E5532A" />
+                                <path
+                                    d="M47.3707 27.0077C47.3674 25.0825 48.8915 23.54 50.8102 23.5268C52.7553 23.5136 54.3323 25.0648 54.3334 26.9912C54.3345 28.923 52.7663 30.4798 50.8267 30.4732C48.9048 30.4666 47.3751 28.9319 47.3707 27.0077Z"
+                                    fill="#E5532A" />
+                                <path
+                                    d="M31.2037 18.3854C28.5897 18.7936 26.0638 18.8025 23.4707 18.3821C24.4526 16.3189 25.7266 14.5548 27.3289 12.9517C28.9379 14.5316 30.1943 16.3123 31.2037 18.3854Z"
+                                    fill="#E5532A" />
+                                <path
+                                    d="M37.8524 16.1865C36.5508 16.7095 35.2526 17.2391 33.9445 17.7444C33.8431 17.7841 33.5963 17.6959 33.5533 17.6032C32.6177 15.5797 31.39 13.7493 29.8207 11.9576C32.9968 12.528 35.6031 13.8542 37.8248 15.9493C37.8336 16.0277 37.8435 16.1071 37.8524 16.1865Z"
+                                    fill="#E5532A" />
+                                <path
+                                    d="M16.7395 16.0961C19.1056 13.8729 21.6866 12.5445 24.596 12.005C23.376 13.8806 22.1406 15.7816 20.8038 17.836C19.5916 17.3174 18.2284 16.7338 16.7395 16.0961Z"
+                                    fill="#E5532A" />
+                                <path
+                                    d="M24.0162 36.7234C26.2677 36.3891 28.4145 36.3858 30.6439 36.7245C29.7435 38.353 28.6459 39.7431 27.3411 41.0483C26.022 39.7707 24.9442 38.3607 24.0162 36.7234Z"
+                                    fill="#E5532A" />
+                                <path
+                                    d="M33.2888 37.1768C34.4857 37.6314 35.7629 38.1158 37.1636 38.6476C34.9728 40.4581 32.6221 41.5393 30.007 42.0049C31.0748 40.4349 32.1383 38.8693 33.2888 37.1768Z"
+                                    fill="#E5532A" />
+                                <path
+                                    d="M21.3801 37.1802C22.5174 38.8539 23.5831 40.4217 24.6576 42.0027C22.0601 41.547 19.7315 40.4537 17.5131 38.6597C18.9171 38.1224 20.1987 37.6314 21.3801 37.1802Z"
+                                    fill="#E5532A" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_2_232">
+                                    <rect width="54" height="54" fill="white" transform="translate(0.333374)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+
+
+                        <h5>Mở rộng network và học hỏi từ cộng đồng</h5>
+                        <p>
+                            RecLand cũng thường xuyên tổ chức những buổi chia sẻ, buổi offline nhằm giúp các bạn REC
+                            trau
+                            dồi, học hỏi và mở rộng được network trong lĩnh vực tuyển dụng.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end why choose  -->
+
+    <!-- start partner  -->
+    <div class="partner-full">
+        <div class="wrapper">
+            <div class="container">
+                <h2>Đối Tác</h2>
+                <div class="partner">
+                    <img src="assets/images/unsplash_ljgDHg9H1pY.png" alt="">
+                    <img src="assets/images/unsplash_ljgDHg9H1pY-1.png" alt="">
+                    <img src="assets/images/unsplash_ljgDHg9H1pY-2.png" alt="">
+                    <img src="assets/images/unsplash_ljgDHg9H1pY-3.png" alt="">
+                    <img src="assets/images/unsplash_ljgDHg9H1pY-4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end partner  -->
+
+    <!-- start work-process  -->
+    <div class="work-process-full">
+        <div class="wrapper">
+            <div class="container">
+                <div class="work-process">
+                    <p>Quy trình làm việc</p>
+                    <h2>Hợp tác cùng RecLand</h2>
+                    <div class="work-process-list">
+                        <div class="work-process-item">
+                            <div class="work-process-item-index">
+                                <span>1</span>
+                            </div>
+                            <svg width="103" height="100" viewBox="0 0 103 100" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18.1024 13.3679L49.8615 4.85813C61.435 1.75702 69.8186 6.81599 73.042 18.8461L81.8792 51.8267C85.1026 63.8568 80.3717 72.4298 68.7982 75.5309L37.0391 84.0407C25.4657 87.1418 17.1122 82.0747 13.8888 70.0447L5.05166 37.064C1.82821 25.034 6.52895 16.469 18.1024 13.3679Z"
+                                    fill="url(#paint0_linear_7250_337)" />
+                                <g filter="url(#filter0_f_7250_337)">
+                                    <path
+                                        d="M26.3009 23.5464L47.8627 17.769C55.7201 15.6636 61.35 18.8671 63.4291 26.6267L69.1292 47.8997C71.2084 55.6593 67.9345 61.2486 60.0771 63.3539L38.5154 69.1314C30.658 71.2368 25.0486 68.0277 22.9695 60.2682L17.2694 38.9952C15.1902 31.2356 18.4435 25.6518 26.3009 23.5464Z"
+                                        fill="#30AD31" fill-opacity="0.5" />
+                                </g>
+                                <g filter="url(#filter1_b_7250_337)">
+                                    <mask id="path-3-outside-1_7250_337" maskUnits="userSpaceOnUse" x="22.2226"
+                                        y="19.2031" width="81" height="81" fill="black">
+                                        <rect fill="white" x="22.2226" y="19.2031" width="81" height="81" />
+                                        <path
+                                            d="M80.9651 20.2031H44.2163C30.785 20.2031 23.2226 27.7656 23.2226 41.1968V77.985C23.2226 91.3374 30.785 98.9787 44.2163 98.9787H81.0045C94.3963 98.9787 101.998 91.3374 101.998 77.985V41.1968C101.998 27.7656 94.3569 20.2031 80.9651 20.2031Z" />
+                                    </mask>
+                                    <path
+                                        d="M80.9651 20.2031H44.2163C30.785 20.2031 23.2226 27.7656 23.2226 41.1968V77.985C23.2226 91.3374 30.785 98.9787 44.2163 98.9787H81.0045C94.3963 98.9787 101.998 91.3374 101.998 77.985V41.1968C101.998 27.7656 94.3569 20.2031 80.9651 20.2031Z"
+                                        fill="#72DC60" fill-opacity="0.35" />
+                                    <path
+                                        d="M80.9651 21.2031C81.5174 21.2031 81.9651 20.7554 81.9651 20.2031C81.9651 19.6508 81.5174 19.2031 80.9651 19.2031V21.2031ZM80.9651 19.2031C80.4128 19.2031 79.9651 19.6508 79.9651 20.2031C79.9651 20.7554 80.4128 21.2031 80.9651 21.2031V19.2031ZM80.9651 19.2031H44.2163V21.2031H80.9651V19.2031ZM44.2163 19.2031C37.3163 19.2031 31.783 21.1487 27.9756 24.9561C24.1682 28.7636 22.2226 34.2969 22.2226 41.1968H24.2226C24.2226 34.6655 26.0582 29.702 29.3898 26.3704C32.7215 23.0387 37.685 21.2031 44.2163 21.2031V19.2031ZM22.2226 41.1968V77.985H24.2226V41.1968H22.2226ZM22.2226 77.985C22.2226 84.8469 24.1689 90.3789 27.9746 94.1951C31.7808 98.0118 37.3136 99.9787 44.2163 99.9787V97.9787C37.6877 97.9787 32.7237 96.1249 29.3908 92.7829C26.0575 89.4404 24.2226 84.4755 24.2226 77.985H22.2226ZM44.2163 99.9787H81.0045V97.9787H44.2163V99.9787ZM81.0045 99.9787C87.8881 99.9787 93.4202 98.0115 97.2308 94.1956C101.041 90.38 102.998 84.8483 102.998 77.985H100.998C100.998 84.4741 99.1542 89.4393 95.8156 92.7824C92.4773 96.1253 87.5126 97.9787 81.0045 97.9787V99.9787ZM102.998 77.985V41.1968H100.998V77.985H102.998ZM102.998 41.1968C102.998 34.2941 101.031 28.761 97.2092 24.9547C93.3878 21.149 87.8459 19.2031 80.9651 19.2031V21.2031C87.4761 21.2031 92.4507 23.0385 95.7979 26.3718C99.1444 29.7045 100.998 34.6683 100.998 41.1968H102.998Z"
+                                        fill="url(#paint1_linear_7250_337)" mask="url(#path-3-outside-1_7250_337)" />
+                                </g>
+                                <g filter="url(#filter2_bd_7250_337)">
+                                    <mask id="path-5-inside-2_7250_337" fill="white">
+                                        <path
+                                            d="M77.0261 62.8566H65.84V74.0034C65.84 75.8152 64.3826 77.2726 62.5708 77.2726C60.759 77.2726 59.3016 75.8152 59.3016 74.0034V62.8566H48.1549C46.343 62.8173 44.8857 61.3599 44.8857 59.5481C44.8857 58.6776 45.2402 57.8544 45.831 57.2242C46.4612 56.6334 47.2883 56.2789 48.1549 56.2789H59.3016V45.1715C59.3016 43.3597 60.759 41.9023 62.5708 41.9023C64.3826 41.9023 65.84 43.3597 65.84 45.1715V56.2789H77.0261C78.8379 56.2789 80.2953 57.7362 80.2953 59.5481C80.2953 61.3599 78.8379 62.8173 77.0261 62.8566Z" />
+                                    </mask>
+                                    <path
+                                        d="M77.0261 62.8566H65.84V74.0034C65.84 75.8152 64.3826 77.2726 62.5708 77.2726C60.759 77.2726 59.3016 75.8152 59.3016 74.0034V62.8566H48.1549C46.343 62.8173 44.8857 61.3599 44.8857 59.5481C44.8857 58.6776 45.2402 57.8544 45.831 57.2242C46.4612 56.6334 47.2883 56.2789 48.1549 56.2789H59.3016V45.1715C59.3016 43.3597 60.759 41.9023 62.5708 41.9023C64.3826 41.9023 65.84 43.3597 65.84 45.1715V56.2789H77.0261C78.8379 56.2789 80.2953 57.7362 80.2953 59.5481C80.2953 61.3599 78.8379 62.8173 77.0261 62.8566Z"
+                                        fill="url(#paint2_linear_7250_337)" />
+                                    <path
+                                        d="M65.84 62.8566V62.6566H65.64V62.8566H65.84ZM59.3016 62.8566H59.5016V62.6566H59.3016V62.8566ZM48.1549 62.8566L48.1505 63.0566H48.1549V62.8566ZM45.831 57.2242L45.6939 57.078L45.6851 57.0874L45.831 57.2242ZM59.3016 56.2789V56.4789H59.5016V56.2789H59.3016ZM65.84 56.2789H65.64V56.4789H65.84V56.2789ZM77.0261 62.6566H65.84V63.0566H77.0261V62.6566ZM65.64 62.8566V74.0034H66.04V62.8566H65.64ZM65.64 74.0034C65.64 75.7048 64.2722 77.0726 62.5708 77.0726V77.4726C64.4931 77.4726 66.04 75.9257 66.04 74.0034H65.64ZM62.5708 77.0726C60.8694 77.0726 59.5016 75.7048 59.5016 74.0034H59.1016C59.1016 75.9257 60.6485 77.4726 62.5708 77.4726V77.0726ZM59.5016 74.0034V62.8566H59.1016V74.0034H59.5016ZM59.3016 62.6566H48.1549V63.0566H59.3016V62.6566ZM48.1592 62.6567C46.4536 62.6196 45.0857 61.2486 45.0857 59.5481H44.6857C44.6857 61.4712 46.2325 63.0149 48.1505 63.0566L48.1592 62.6567ZM45.0857 59.5481C45.0857 58.7327 45.4178 57.9573 45.9769 57.361L45.6851 57.0874C45.0625 57.7515 44.6857 58.6225 44.6857 59.5481H45.0857ZM45.9678 57.3701C46.564 56.8111 47.3433 56.4789 48.1549 56.4789V56.0789C47.2334 56.0789 46.3583 56.4556 45.6942 57.0783L45.9678 57.3701ZM48.1549 56.4789H59.3016V56.0789H48.1549V56.4789ZM59.5016 56.2789V45.1715H59.1016V56.2789H59.5016ZM59.5016 45.1715C59.5016 43.4701 60.8694 42.1023 62.5708 42.1023V41.7023C60.6485 41.7023 59.1016 43.2492 59.1016 45.1715H59.5016ZM62.5708 42.1023C64.2722 42.1023 65.64 43.4701 65.64 45.1715H66.04C66.04 43.2492 64.4931 41.7023 62.5708 41.7023V42.1023ZM65.64 45.1715V56.2789H66.04V45.1715H65.64ZM65.84 56.4789H77.0261V56.0789H65.84V56.4789ZM77.0261 56.4789C78.7275 56.4789 80.0953 57.8467 80.0953 59.5481H80.4953C80.4953 57.6258 78.9484 56.0789 77.0261 56.0789V56.4789ZM80.0953 59.5481C80.0953 61.2486 78.7274 62.6196 77.0218 62.6567L77.0304 63.0566C78.9485 63.0149 80.4953 61.4712 80.4953 59.5481H80.0953Z"
+                                        fill="url(#paint3_linear_7250_337)" fill-opacity="0.5"
+                                        mask="url(#path-5-inside-2_7250_337)" />
+                                </g>
+                                <defs>
+                                    <filter id="filter0_f_7250_337" x="0.655853" y="1.13678" width="85.0848"
+                                        height="84.6262" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                            result="shape" />
+                                        <feGaussianBlur stdDeviation="8" result="effect1_foregroundBlur_7250_337" />
+                                    </filter>
+                                    <filter id="filter1_b_7250_337" x="-1.7774" y="-4.79688" width="128.776"
+                                        height="128.776" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feGaussianBlur in="BackgroundImageFix" stdDeviation="12" />
+                                        <feComposite in2="SourceAlpha" operator="in"
+                                            result="effect1_backgroundBlur_7250_337" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_7250_337"
+                                            result="shape" />
+                                    </filter>
+                                    <filter id="filter2_bd_7250_337" x="29.8857" y="26.9023" width="65.4096"
+                                        height="65.3702" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feGaussianBlur in="BackgroundImageFix" stdDeviation="7.5" />
+                                        <feComposite in2="SourceAlpha" operator="in"
+                                            result="effect1_backgroundBlur_7250_337" />
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                        <feOffset dx="5" dy="5" />
+                                        <feGaussianBlur stdDeviation="5" />
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0.454902 0 0 0 0 0.870588 0 0 0 0 0.376471 0 0 0 0.5 0" />
+                                        <feBlend mode="normal" in2="effect1_backgroundBlur_7250_337"
+                                            result="effect2_dropShadow_7250_337" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_7250_337"
+                                            result="shape" />
+                                    </filter>
+                                    <linearGradient id="paint0_linear_7250_337" x1="0.00187343" y1="18.218" x2="65.1991"
+                                        y2="61.1595" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#9BF763" />
+                                        <stop offset="1" stop-color="#26AB5B" />
+                                    </linearGradient>
+                                    <linearGradient id="paint1_linear_7250_337" x1="35.7624" y1="29.3806" x2="86.0128"
+                                        y2="91.6169" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="white" stop-opacity="0.25" />
+                                        <stop offset="1" stop-color="white" stop-opacity="0" />
+                                    </linearGradient>
+                                    <linearGradient id="paint2_linear_7250_337" x1="77.7848" y1="48.2895" x2="38.3419"
+                                        y2="49.5769" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="white" />
+                                        <stop offset="1" stop-color="white" stop-opacity="0.2" />
+                                    </linearGradient>
+                                    <linearGradient id="paint3_linear_7250_337" x1="48.7001" y1="53.7673" x2="78.7677"
+                                        y2="53.9335" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="white" />
+                                        <stop offset="1" stop-color="white" stop-opacity="0" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <h5>Tạo một tài khoản</h5>
+                            <p>Trở thành member trên RecLand</p>
+                        </div>
+                        <div class="work-process-item">
+                            <div class="work-process-item-index">
+
+                                <span>2</span>
+                            </div>
+                            <svg width="114" height="99" viewBox="0 0 114 99" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M55.7612 52.7059C59.0948 40.265 71.7751 32.8533 84.0836 36.1513C89.9943 37.7351 95.027 41.6273 98.0746 46.9717C101.122 52.3161 101.935 58.6749 100.334 64.6492C97.0006 77.0901 84.3203 84.5018 72.0118 81.2038C59.7033 77.9057 52.4277 65.1468 55.7612 52.7059ZM95.1033 82.6963L100.305 89.8326L100.42 89.8635C101.4 91.5806 100.81 93.7813 99.1035 94.7788C97.3969 95.7762 95.2197 95.1929 94.2405 93.4757L90.4238 85.6869C90.0437 85.0228 89.9419 84.2319 90.141 83.4889C90.3401 82.7458 90.8237 82.1117 91.485 81.7267C92.7565 80.9984 94.3663 81.4297 95.1033 82.6963Z"
+                                    fill="url(#paint0_linear_7250_216)" />
+                                <g filter="url(#filter0_f_7250_216)">
+                                    <path
+                                        d="M81.3367 46.4055C74.6305 44.6086 67.7217 48.6468 65.9055 55.4252C64.0892 62.2035 68.0533 69.1551 74.7595 70.952C81.4657 72.749 88.3745 68.7107 90.1907 61.9324C91.0629 58.6773 90.6201 55.2128 88.9596 52.3009C87.2992 49.3891 84.5571 47.2684 81.3367 46.4055Z"
+                                        fill="#E5532A" fill-opacity="0.5" />
+                                </g>
+                                <g filter="url(#filter1_b_7250_216)">
+                                    <g filter="url(#filter2_b_7250_216)">
+                                        <mask id="path-3-outside-1_7250_216" maskUnits="userSpaceOnUse" x="-1.95277"
+                                            y="-1.22474" width="101.654" height="101.654" fill="black">
+                                            <rect fill="white" x="-1.95277" y="-1.22474" width="101.654"
+                                                height="101.654" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M86.5152 33.6006C81.5429 15.0435 62.6286 3.98799 44.269 8.90743C35.4524 11.2698 27.9455 17.0755 23.3997 25.0473C18.8538 33.0191 17.6415 42.504 20.0293 51.4155C25.0017 69.9726 43.9159 81.0281 62.2755 76.1087C80.6351 71.1892 91.4876 52.1577 86.5152 33.6006ZM27.8331 78.3369L20.0738 88.9817L19.9019 89.0277C18.4414 91.589 19.3209 94.8715 21.8665 96.3594C24.412 97.8473 27.6595 96.9771 29.1201 94.4158L34.8131 82.7978C35.3803 81.8073 35.5321 80.6275 35.2351 79.5191C34.9381 78.4108 34.2167 77.465 33.2304 76.8907C31.3337 75.8043 28.9324 76.4477 27.8331 78.3369Z" />
+                                        </mask>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M86.5152 33.6006C81.5429 15.0435 62.6286 3.98799 44.269 8.90743C35.4524 11.2698 27.9455 17.0755 23.3997 25.0473C18.8538 33.0191 17.6415 42.504 20.0293 51.4155C25.0017 69.9726 43.9159 81.0281 62.2755 76.1087C80.6351 71.1892 91.4876 52.1577 86.5152 33.6006ZM27.8331 78.3369L20.0738 88.9817L19.9019 89.0277C18.4414 91.589 19.3209 94.8715 21.8665 96.3594C24.412 97.8473 27.6595 96.9771 29.1201 94.4158L34.8131 82.7978C35.3803 81.8073 35.5321 80.6275 35.2351 79.5191C34.9381 78.4108 34.2167 77.465 33.2304 76.8907C31.3337 75.8043 28.9324 76.4477 27.8331 78.3369Z"
+                                            fill="#E5532A" fill-opacity="0.3" />
+                                        <path
+                                            d="M23.3997 25.0473L22.531 24.552L23.3997 25.0473ZM20.0738 88.9817L20.8819 89.5707C20.7473 89.7554 20.5534 89.8884 20.3327 89.9476L20.0738 88.9817ZM27.8331 78.3369L28.6974 78.8399C28.6802 78.8695 28.6614 78.8982 28.6412 78.926L27.8331 78.3369ZM19.9019 89.0277L19.0332 88.5324C19.1655 88.3004 19.3851 88.1309 19.6431 88.0618L19.9019 89.0277ZM21.8665 96.3594L21.3618 97.2228L21.3618 97.2228L21.8665 96.3594ZM29.1201 94.4158L30.0181 94.8558C30.0089 94.8746 29.9991 94.893 29.9888 94.9112L29.1201 94.4158ZM34.8131 82.7978L33.9152 82.3577C33.9246 82.3385 33.9347 82.3195 33.9453 82.3009L34.8131 82.7978ZM33.2304 76.8907L33.7274 76.023L33.7335 76.0265L33.2304 76.8907ZM44.0102 7.9415C62.9129 2.87652 82.3685 14.261 87.4811 33.3418L85.5493 33.8594C80.7173 15.826 62.3442 5.09946 44.5278 9.87335L44.0102 7.9415ZM22.531 24.552C27.2083 16.3496 34.9341 10.3734 44.0102 7.9415L44.5278 9.87335C35.9708 12.1662 28.6827 17.8015 24.2684 25.5427L22.531 24.552ZM19.0634 51.6743C16.6078 42.51 17.8539 32.7539 22.531 24.552L24.2684 25.5427C19.8538 33.2843 18.6752 42.4981 20.9952 51.1566L19.0634 51.6743ZM62.5343 77.0746C43.6316 82.1396 24.1761 70.7551 19.0634 51.6743L20.9952 51.1566C25.8273 69.1901 44.2003 79.9166 62.0167 75.1427L62.5343 77.0746ZM87.4811 33.3418C92.5938 52.4226 81.4371 72.0096 62.5343 77.0746L62.0167 75.1427C79.8331 70.3688 90.3813 51.8928 85.5493 33.8594L87.4811 33.3418ZM19.2657 88.3926L27.025 77.7479L28.6412 78.926L20.8819 89.5707L19.2657 88.3926ZM19.6431 88.0618L19.815 88.0157L20.3327 89.9476L20.1608 89.9937L19.6431 88.0618ZM21.3618 97.2228C18.3431 95.4583 17.3012 91.5698 19.0332 88.5324L20.7706 89.5231C19.5816 91.6083 20.2988 94.2848 22.3711 95.4961L21.3618 97.2228ZM29.9888 94.9112C28.2526 97.9559 24.3878 98.9914 21.3618 97.2228L22.3711 95.4961C24.4362 96.7031 27.0665 95.9983 28.2514 93.9204L29.9888 94.9112ZM35.7111 83.2378L30.0181 94.8558L28.2221 93.9758L33.9152 82.3577L35.7111 83.2378ZM36.201 79.2603C36.5659 80.6221 36.38 82.0737 35.681 83.2946L33.9453 82.3009C34.3805 81.5408 34.4983 80.6329 34.2692 79.7779L36.201 79.2603ZM33.7335 76.0265C34.9494 76.7344 35.8361 77.8985 36.201 79.2603L34.2692 79.7779C34.0401 78.923 33.4841 78.1956 32.7272 77.7549L33.7335 76.0265ZM26.9688 77.834C28.3445 75.4697 31.3538 74.6633 33.7274 76.023L32.7333 77.7584C31.3136 76.9452 29.5203 77.4257 28.6974 78.8399L26.9688 77.834Z"
+                                            fill="url(#paint1_linear_7250_216)"
+                                            mask="url(#path-3-outside-1_7250_216)" />
+                                    </g>
+                                </g>
+                                <defs>
+                                    <filter id="filter0_f_7250_216" x="50.4649" y="30.9785" width="55.1633"
+                                        height="55.4006" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                            result="shape" />
+                                        <feGaussianBlur stdDeviation="7.5" result="effect1_foregroundBlur_7250_216" />
+                                    </filter>
+                                    <filter id="filter1_b_7250_216" x="-6.1684" y="-17.2623" width="118.89"
+                                        height="139.348" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feGaussianBlur in="BackgroundImageFix" stdDeviation="12" />
+                                        <feComposite in2="SourceAlpha" operator="in"
+                                            result="effect1_backgroundBlur_7250_216" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_7250_216"
+                                            result="shape" />
+                                    </filter>
+                                    <filter id="filter2_b_7250_216" x="-6.1684" y="-17.2623" width="118.89"
+                                        height="139.348" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feGaussianBlur in="BackgroundImageFix" stdDeviation="12" />
+                                        <feComposite in2="SourceAlpha" operator="in"
+                                            result="effect1_backgroundBlur_7250_216" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_7250_216"
+                                            result="shape" />
+                                    </filter>
+                                    <linearGradient id="paint0_linear_7250_216" x1="54.8354" y1="56.1613" x2="106.8"
+                                        y2="70.085" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#EF463A" />
+                                        <stop offset="1" stop-color="#FCA939" />
+                                    </linearGradient>
+                                    <linearGradient id="paint1_linear_7250_216" x1="67.5933" y1="12.3363" x2="19.5132"
+                                        y2="93.3382" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="white" stop-opacity="0.25" />
+                                        <stop offset="1" stop-color="white" stop-opacity="0" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+
+
+                            <h5>Tìm kiếm công việc</h5>
+                            <p>Tìm kiếm công việc phù hợp để mời ứng viên</p>
+                        </div>
+                        <div class="work-process-item">
+                            <div class="work-process-item-index">
+
+                                <span>3</span>
+                            </div>
+                            <svg width="105" height="99" viewBox="0 0 105 99" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M53.3702 65.8039C53.0409 65.994 52.6681 66.109 52.2826 66.1276L39.8601 66.7274C36.3343 66.8961 33.3013 66.552 30.5845 65.6798C24.64 63.7738 19.6515 59.8015 16.5414 54.4889L6.29839 37.0072C5.11581 34.9898 5.38092 32.4132 6.95081 30.5941L21.0156 14.3457C21.8456 13.372 23.0073 12.6944 24.2767 12.4386L45.3278 8.1363C47.6824 7.65158 50.0603 8.68497 51.2387 10.7013L61.4892 28.196C64.5975 33.4993 65.6249 39.7861 64.3849 45.8989C63.8157 48.703 62.6293 51.5141 60.762 54.4937L54.1814 65.014C53.9782 65.3422 53.698 65.6112 53.3702 65.8039Z"
+                                    fill="url(#paint0_linear_7250_272)" />
+                                <g filter="url(#filter0_f_7250_272)">
+                                    <path
+                                        d="M47.8767 55.3881C47.6534 55.517 47.4044 55.6014 47.1505 55.6272L38.9705 56.458C36.6489 56.6929 34.67 56.5947 32.9184 56.1606C29.0857 55.2124 25.9578 52.9605 24.1133 49.8162L18.0381 39.4696C17.3366 38.2757 17.6067 36.6846 18.7054 35.5098L28.5467 25.0147C29.1281 24.3863 29.9161 23.9272 30.7593 23.7229L44.7435 20.2986C46.3077 19.9134 47.8308 20.459 48.5295 21.6525L54.6092 32.0067C56.4528 35.1454 56.8933 38.9652 55.8514 42.7626C55.3731 44.5046 54.4893 46.2739 53.1521 48.172L48.4389 54.8732C48.2932 55.0821 48.0992 55.2576 47.8767 55.3881Z"
+                                        fill="url(#paint1_linear_7250_272)" />
+                                </g>
+                                <g filter="url(#filter1_b_7250_272)">
+                                    <path
+                                        d="M60.1434 96.4105C59.6436 96.3337 59.1615 96.142 58.7464 95.8392L45.3699 86.0807C41.5745 83.3094 38.7173 80.415 36.6279 77.2335C32.054 70.2751 30.1928 61.9595 31.3954 53.8153L35.3434 27.0083C35.7985 23.9144 38.2201 21.447 41.3631 20.8608L69.4803 15.6608C71.1519 15.3386 72.9206 15.6025 74.4496 16.3967L99.8552 29.5041C102.7 30.9665 104.304 34.0328 103.845 37.1222L99.894 63.9489C98.6973 72.0819 94.5241 79.5018 88.1457 84.8447C85.2193 87.2953 81.6473 89.2374 77.2292 90.786L61.6424 96.2643C61.1583 96.437 60.6438 96.4834 60.1434 96.4105Z"
+                                        fill="#021A84" fill-opacity="0.3" />
+                                    <path
+                                        d="M60.0713 96.9053L60.0674 96.9047C59.4925 96.8163 58.9346 96.5954 58.4517 96.2431L45.0752 86.4846L45.075 86.4845C41.242 83.6857 38.339 80.7497 36.2101 77.5082C31.5698 70.4487 29.68 62.0097 30.9007 53.7424L60.0713 96.9053ZM60.0713 96.9053C60.6493 96.9895 61.2458 96.9363 61.8085 96.7359C61.8091 96.7357 61.8097 96.7355 61.8104 96.7352L77.3946 91.2579L60.0713 96.9053ZM34.8488 26.9356L30.9007 53.7422L104.34 37.195C104.83 33.8877 103.113 30.617 100.084 29.0597C100.084 29.0596 100.084 29.0595 100.084 29.0594L74.6801 15.953C74.6798 15.9529 74.6796 15.9527 74.6793 15.9526C73.0529 15.1081 71.171 14.8262 69.3875 15.1695C69.3869 15.1696 69.3862 15.1697 69.3856 15.1699L41.2722 20.3692L41.2714 20.3693C37.9258 20.9932 35.336 23.623 34.8488 26.9355C34.8488 26.9355 34.8488 26.9356 34.8488 26.9356ZM100.389 64.0217L104.34 37.1956L77.395 91.2577C81.8571 89.6937 85.485 87.7249 88.4667 85.2281L88.4668 85.228C94.9378 79.8075 99.1738 72.2776 100.389 64.0217Z"
+                                        stroke="url(#paint2_linear_7250_272)" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </g>
+                                <g filter="url(#filter2_b_7250_272)">
+                                    <path
+                                        d="M61.8127 64.9431C61.032 64.8271 60.2951 64.4261 59.7827 63.7558L53.1908 55.1259C52.174 53.7866 52.4503 51.9088 53.8116 50.9271C55.1735 49.9415 57.1053 50.2264 58.1268 51.5624L62.8703 57.7691L78.5222 46.4591C79.8881 45.4741 81.8199 45.759 82.8373 47.0944C83.8582 48.4343 83.5813 50.316 82.2206 51.2937L64.0978 64.3911C63.4145 64.8856 62.5935 65.0591 61.8127 64.9431Z"
+                                        fill="url(#paint3_linear_7250_272)" />
+                                    <path
+                                        d="M53.8702 51.0081L53.8701 51.0082C52.5547 51.9569 52.2874 53.7706 53.2705 55.0654L59.8621 63.6951C60.3578 64.3434 61.0708 64.7317 61.8274 64.8442C62.5838 64.9566 63.3782 64.7884 64.0392 64.3101L64.0393 64.3101L82.162 51.2127L82.1623 51.2125C83.4768 50.2679 83.7448 48.4505 82.7578 47.155C81.7734 45.8629 79.9029 45.5868 78.5807 46.5401L53.8702 51.0081ZM53.8702 51.0081C55.1882 50.0543 57.0587 50.3302 58.0473 51.6232L62.7909 57.8298L62.85 57.9072L62.9289 57.8502L78.5806 46.5402L53.8702 51.0081Z"
+                                        stroke="url(#paint4_linear_7250_272)" stroke-opacity="0.5" stroke-width="0.2" />
+                                </g>
+                                <defs>
+                                    <filter id="filter0_f_7250_272" x="1.65125" y="4.17639" width="70.7529"
+                                        height="68.4057" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                            result="shape" />
+                                        <feGaussianBlur stdDeviation="8" result="effect1_foregroundBlur_7250_272" />
+                                    </filter>
+                                    <filter id="filter1_b_7250_272" x="6.0387" y="-9.47321" width="122.884"
+                                        height="130.917" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feGaussianBlur in="BackgroundImageFix" stdDeviation="12" />
+                                        <feComposite in2="SourceAlpha" operator="in"
+                                            result="effect1_backgroundBlur_7250_272" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_7250_272"
+                                            result="shape" />
+                                    </filter>
+                                    <filter id="filter2_b_7250_272" x="37.5779" y="30.8726" width="60.8755"
+                                        height="49.1052" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feGaussianBlur in="BackgroundImageFix" stdDeviation="7.5" />
+                                        <feComposite in2="SourceAlpha" operator="in"
+                                            result="effect1_backgroundBlur_7250_272" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_7250_272"
+                                            result="shape" />
+                                    </filter>
+                                    <linearGradient id="paint0_linear_7250_272" x1="22.6063" y1="13.0507" x2="53.1401"
+                                        y2="65.9367" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#021A84" />
+                                        <stop offset="1" stop-color="#6F7EBE" />
+                                    </linearGradient>
+                                    <linearGradient id="paint1_linear_7250_272" x1="29.6396" y1="24.1607" x2="47.7207"
+                                        y2="55.4782" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#021A84" />
+                                        <stop offset="1" stop-color="#6F7EBE" />
+                                    </linearGradient>
+                                    <linearGradient id="paint2_linear_7250_272" x1="47.3785" y1="21.4467" x2="91.4643"
+                                        y2="84.9134" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="white" stop-opacity="0.25" />
+                                        <stop offset="1" stop-color="white" stop-opacity="0" />
+                                    </linearGradient>
+                                    <linearGradient id="paint3_linear_7250_272" x1="81.1842" y1="49.9292" x2="48.055"
+                                        y2="46.3477" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="white" />
+                                        <stop offset="1" stop-color="white" stop-opacity="0.2" />
+                                    </linearGradient>
+                                    <linearGradient id="paint4_linear_7250_272" x1="56.3887" y1="49.5166" x2="81.4639"
+                                        y2="53.5685" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="white" />
+                                        <stop offset="1" stop-color="white" stop-opacity="0" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+
+                            <h5>Giới thiệu ứng viên</h5>
+                            <p>Giới thiệu ứng viên vào các vị trí đang tuyển, process ứng viên và nhận kết quả</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end work-process  -->
+
+    <!-- start contact-banner -->
+    <div class="contact-banner-full">
+        <div class="wrapper">
+            <div class="container">
+                <div class="contact-banner">
+                    <div class="contact-banner-left">
+                        <svg width="67" height="67" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.0526123" y="0.0526123" width="52.8947" height="52.8947" rx="26.4474"
+                                fill="white" />
+                            <path
+                                d="M38.2867 22.6034C38.2867 30.855 30.6522 35.7213 27.2317 36.885C26.8262 37.0261 26.1738 37.0261 25.7683 36.885C24.3048 36.3913 22.0656 35.21 20.0027 33.3939C17.217 30.9431 14.7133 27.3287 14.7133 22.6034C14.7133 18.9537 17.6401 16.0092 21.2546 16.0092C23.4056 16.0092 25.3099 17.0495 26.5088 18.6363C27.6901 17.0495 29.5943 16.0092 31.7454 16.0092C32.6799 16.0092 33.5614 16.2032 34.3725 16.5558C36.6822 17.5784 38.2867 19.8881 38.2867 22.6034Z"
+                                fill="#FE4C4C" />
+                        </svg>
+                        <div class="title">
+                            <h3>
+                                Bạn muốn đến với Recland
+                            </h3>
+                            <p>
+                                Chúng tôi sẽ giúp bạn thành công trên con đường Recer
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contact-banner-right">
+                        <a href="" class="btn">Đăng Ký Ngay</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end contact-banner -->
+
+    <!-- start contact search  -->
+    <div class="contact-search-full">
+        <div class="wrapper">
+            <div class="container">
+                <div class="contact-search">
+                    <div class="contact-search-left">
+                        <input type="text" placeholder="Enter your email address">
+                        <img src="assets/images/Frame 3152.png" alt="">
+                    </div>
+                    <div class="contact-search-right">
+                        <div class="item">
+                            <div class="item-number">
+                                <span>199</span>
+                            </div>
+                            <span>Công việc</span>
+                        </div>
+                        <div class="item">
+                            <div class="item-number">
+                                <span>93</span>
+                            </div>
+                            <span>Công ty</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end contact search  -->
+
+    <!-- start footer-top -->
+    <div class="footer-top-full">
+        <div class="wrapper">
+            <div class="container">
+                <div class="footer-top">
+                    <div class="footer-top-logo">
+                        <div class="image">
+                            <img src="assets/images/logo-recland.png" alt="">
+                        </div>
+                        <ul class="link-social">
+                            <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-top-address">
+                        <h3>Địa chỉ</h3>
+                        <p>Tòa nhà AC, 78 Duy Tân, Quận Cầu Giấy, Hà Nội</p>
+                    </div>
+                    <div class="footer-top-contact">
+                        <h3>Liên hệ</h3>
+                        <p>0369 713 819</p>
+                        <p>luat.nguyen@recland.co</p>
+                    </div>
+                    <div class="footer-top-menu">
+                        <h3>Menu</h3>
+                        <p>Trang chủ</p>
+                        <p>Tìm kiếm công việc</p>
+                        <p>Sitemap</p>
+                    </div>
+                    <div class="footer-top-myaccount">
+                        <h3>Tài khoản của tôi</h3>
+                        <p>Tổng quan</p>
+                        <p>Kho CV</p>
+                        <p>Thông tin cá nhân</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="footer-bottom">
+                    <p>Copyright © 2022 Recland.co</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end footer-top -->
+
+    <!-- start scroll top  -->
+    <div class="scroll-top-full">
+        <div class="scroll-top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </div>
+    </div>
+    <!-- end scroll top  -->
+
+</body>
+
+</html>

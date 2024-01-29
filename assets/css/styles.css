@@ -1,0 +1,1038 @@
+/* styles header  */
+.header {
+    height: 80px;
+}
+
+.wrapper__header {
+    height: 100%;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.header__container .header__right {
+    display: flex;
+    text-transform: capitalize;
+    gap: 14px;
+}
+
+.btn {
+    min-width: 149px;
+    height: 44px;
+    font-size: 18px;
+    padding: 8px 16px;
+    /* border: 1px solid red; */
+    font-weight: 500;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: linear 0.3s;
+}
+
+.btn-findjob {
+    color: #171717;
+}
+
+.btn-findjob:hover {
+    color: var(--blue);
+}
+
+.btn-signup {
+    border: 1px solid var(--blue);
+    background-color: #fff;
+    border-radius: 8px;
+    color: var(--blue);
+}
+
+.btn-signup:hover {
+    color: var(--blue);
+    background-color: var(--blue);
+    color: #fff;
+}
+
+.btn-signin {
+    border: 1px solid var(--blue);
+    background-color: var(--blue);
+    border-radius: 8px;
+    color: #fff;
+}
+
+
+.btn-signin:hover {
+    color: var(--blue);
+    border: 1px solid var(--blue);
+    background-color: #fff;
+    border-radius: 8px;
+    color: var(--blue);
+}
+
+/* styles header  */
+
+
+/* style banner  */
+.banner {
+    width: 100%;
+    /* height: 100%; */
+    /* height: 721.013px; */
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: contain; */
+}
+
+.form-search-layout {
+    background: var(--gray);
+    width: 100%;
+}
+
+.form-search-layout .wrapper {
+    padding: 40px 0;
+}
+
+.form-search-layout .wrapper .container {
+    padding: 0 12px;
+}
+
+.form-search {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.form-search .form-search-input {
+    width: 100%;
+    border: 1px solid #000;
+    height: 50px;
+    position: relative;
+    border-radius: 8px;
+    background-color: #fff;
+    border: inherit;
+}
+
+.form-search .form-search-input svg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 16px;
+}
+
+.form-search .form-search-input input {
+    width: 100%;
+    height: 100%;
+    padding: 13px 16px 16px 44px;
+    border: inherit;
+}
+
+.form-search .form-select-input {
+    min-width: 271px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: inherit;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: inherit; */
+}
+
+.form-search .form-select-input input {
+    width: 100%;
+    height: 100%;
+    border: inherit;
+    /* padding-left: 44px; */
+
+}
+
+.form-search .form-select-input .left {
+    font-size: 24px;
+    /* position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%); */
+}
+
+.form-search .form-select-input .right {
+    /* position: absolute; */
+    /* top: 50%;
+    right: 0;
+    transform: translateY(-50%); */
+}
+
+.form-search-layout .recommend {
+    margin-top: 28px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.form-search-layout .recommend ul {
+    display: flex;
+    gap: 8px;
+}
+
+.form-search-layout .recommend ul li {
+    padding: 4px 8px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.best-job-full {
+    background-color: var(--gray);
+}
+
+.best-job-full .best-job-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 67px;
+    padding-bottom: 40px;
+
+}
+
+.best-job-full .best-job-title .best-job-title-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.best-job-full .best-job-title .best-job-title-left svg {
+    padding: 7px;
+    box-shadow: 0px 12.342px 30px 0px rgba(0, 0, 0, 0.08);
+    background: rgba(255, 255, 255, 0.40);
+    border-radius: 50%;
+}
+
+.best-job-full .best-job-title .best-job-title-left h2 {
+    color: var(--blue);
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.best-job-full .best-job-title .best-job-title-right a {
+    color: var(--blue);
+    padding: 8px 16px;
+}
+
+.list__job__card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+.list__job__card .card__item {
+    width: calc(33.333% - 32px);
+    padding: 16px;
+    border: 1px solid #021A84;
+    border-radius: 16px;
+    background: #fff;
+}
+
+.list__job__card .card__item .card__item-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.list__job__card .card__item .card__item-title .card__item-title-left {
+    display: flex;
+    gap: 8px;
+}
+
+.list__job__card .card__item .card__item-title .card__item-title-left span {
+    font-weight: 500;
+    letter-spacing: 0.24px;
+    line-height: 16px;
+    max-width: 187px;
+}
+
+.list__job__card .card__item .card__item-title .card__item-title-right span {
+    white-space: nowrap;
+    padding: 4px 8px;
+    background: var(--gray);
+    border-radius: 8px;
+    color: var(--blue);
+    font-size: 12px;
+}
+
+.card__item .card__item-bonus {
+    margin: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 44px;
+}
+
+.card__item .card__item-bonus .card__item-bonus-salary p:first-child,
+.card__item-bonus-reward p:first-child {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--blue);
+    margin-bottom: 8px;
+}
+
+.card__item .card__item-bonus .card__item-bonus-salary p:nth-child(2),
+.card__item-bonus-reward p:nth-child(2) {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.card__item .card__item-bonus .card__item-bonus-salary p:nth-child(2) span,
+.card__item-bonus-reward p:nth-child(2) span {
+    font-weight: normal;
+    color: #171717;
+    opacity: 0.7;
+}
+
+.card__item .card__item-site {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.card__item .card__item-site .card__item-site-left span {
+    padding: 4px 16px;
+    background: var(--gray);
+    font-weight: 400;
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+.card__item .card__item-site .card__item-site-left {
+    display: flex;
+    gap: 16px;
+}
+
+.card__item .card__item-site .card__item-site-right span {
+    padding: 4px 16px;
+    background: var(--orange);
+    color: #fff;
+    border-radius: 8px;
+}
+
+.best-job-full {
+    padding: 80px;
+}
+
+/* style banner  */
+
+/* stlye why choose */
+
+.why-choose-full {
+    background: var(--gray);
+    padding-bottom: 80px;
+}
+
+.why-choose-full .container {
+    text-align: center;
+    color: var(--blue);
+}
+
+.container .why-choose {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.container .why-choose .why-choose-job,
+.container .why-choose .why-choose-salary,
+.container .why-choose .why-choose-network {
+    width: 33.333%;
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    height: 278px;
+}
+
+.container .why-choose .why-choose-job {
+    margin: 0 auto;
+    background-color: #AAF0C2;
+}
+
+.container .why-choose .why-choose-job h5 {
+    color: #2ADA66;
+}
+
+.container .why-choose .why-choose-job h5 {
+    color: #2ADA66;
+
+}
+
+.why-choose-full .wrapper .container h2 {
+    margin-bottom: 40px;
+}
+
+.container .why-choose .why-choose-salary {
+    background-color: #9AA3CE;
+}
+
+.container .why-choose .why-choose-salary h5 {
+    color: #021A84;
+}
+
+.container .why-choose .why-choose-salary p {
+    color: #021A84;
+}
+
+.container .why-choose .why-choose-network {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.60) 0%, rgba(255, 255, 255, 0.60) 100%), #E5532A;
+    color: hsl(13, 78%, 53%);
+}
+
+.container .why-choose .why-choose-job svg,
+.container .why-choose .why-choose-salary svg,
+.container .why-choose .why-choose-network svg {
+    margin-bottom: 16px;
+}
+
+.container .why-choose .why-choose-job h5,
+.container .why-choose .why-choose-salary h5,
+.container .why-choose .why-choose-network h5 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.container .why-choose .why-choose-job p,
+.container .why-choose .why-choose-salary p,
+.container .why-choose .why-choose-network p {
+    font-size: 14px;
+    /* font-weight: 700; */
+}
+
+/* stlye why choose */
+
+
+/* style partner  */
+.partner-full {
+    background-color: var(--gray);
+    padding-bottom: 80px;
+}
+
+.partner-full .wrapper .container h2 {
+
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 48px;
+    color: var(--blue);
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.partner-full .wrapper .container .partner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 60px;
+}
+
+/* style partner  */
+
+/* style work-process  */
+.work-process-full {
+    background: var(--gray);
+    padding-bottom: 116px;
+    text-align: center;
+}
+
+.work-process-list {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.work-process-list .work-process-item {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.work-process-item span {
+    /* display: inline-block; */
+    width: 24px;
+    height: 24px;
+    border: 1px solid #999999;
+    background: #999999;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+}
+
+.work-process-item .work-process-item-index {
+    /* display: inline-block; */
+    padding: 4px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.work-process-list .work-process-item h5 {
+    line-height: 28px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.work-process-list .work-process-item p {
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.work-process-full .wrapper .container .work-process h2 {
+    margin-bottom: 40px;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 48px;
+    color: var(--blue);
+}
+
+.work-process-full .wrapper .container .work-process p:first-child {
+    color: var(--blue);
+    font-size: 18px;
+}
+
+/* style work-process  */
+
+/* stlye contact-banner */
+.contact-banner-full {
+    background: var(--gray);
+    /* padding-bottom: 100px; */
+}
+
+.contact-banner-full .container {
+    background: linear-gradient(221deg, #0CC64B 0%, #26AB5B 76.95%);
+    border-radius: 20px;
+
+}
+
+.contact-banner-full .contact-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+    /* margin-bottom: 40px; */
+}
+
+.contact-banner-full .contact-banner .contact-banner-left {
+
+    display: flex;
+    padding-left: 40px;
+    gap: 16px;
+}
+
+.contact-banner-full .contact-banner .contact-banner-left svg {
+    padding: 7px;
+    background: rgba(255, 255, 255, 0.40);
+    border-radius: 50%;
+}
+
+.contact-banner-full .contact-banner .contact-banner-left h3 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #fff;
+}
+
+.contact-banner-full .contact-banner .contact-banner-left p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #fff;
+}
+
+
+.contact-banner-full .contact-banner .contact-banner-right {
+    position: relative;
+    height: 120px;
+    width: 233px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-banner-full .contact-banner .contact-banner-right::before {
+    content: "";
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.30);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* top: 0; */
+    z-index: 1;
+}
+
+.contact-banner-full .contact-banner .contact-banner-right a {
+    padding: 8px 16px;
+    background: var(--blue);
+    z-index: 10;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+    box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* stlye contact-banner */
+
+/* style form search */
+.contact-search-full {
+    background: var(--gray);
+    padding-top: 40px;
+}
+
+.contact-search-full .contact-search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.contact-search-full .contact-search .contact-search-left {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.contact-search-full .contact-search .contact-search-left input {
+    width: 250px;
+    height: 50px;
+    outline: none;
+    border: none;
+    padding: 8px 8px 8px 16px;
+}
+
+.contact-search-full .contact-search .contact-search-right {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.contact-search-full .contact-search .contact-search-right .item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.contact-search-full .contact-search .contact-search-right .item span:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.contact-search-full .contact-search .contact-search-right .item span:nth-child(2) {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #999999;
+}
+
+.contact-search-full .contact-search .contact-search-right .item .item-number {
+    padding: 4px;
+    background: rgba(255, 255, 255, 0.50);
+    border-radius: 50%;
+}
+
+.footer-top-full {
+    /* padding-top: 40px; */
+    padding: 40px 0;
+    background: var(--gray);
+}
+
+.footer-top-full .wrapper .container .footer-top {
+    display: flex;
+    justify-content: space-between;
+    height: 125px;
+
+}
+
+.footer-top-full .wrapper .container .footer-top .footer-top-logo .image {
+    margin-bottom: 16px;
+}
+
+.footer-top-full .wrapper .container .footer-top .footer-top-logo .link-social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-top-full .wrapper .container .footer-top .footer-top-logo .link-social li a i {
+    font-size: 32px;
+    color: #999999;
+    /* height: 32px; */
+}
+
+.footer-top-full .wrapper .container .footer-top h3 {
+    font-style: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: var(--blue);
+}
+
+.footer-top-full .wrapper .container .footer-top p {
+    font-style: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #999999;
+}
+
+.footer-top-full .wrapper .container .footer-top .footer-top-address {
+    width: 20.86%;
+    padding-right: 15px;
+}
+
+.footer-top-full .wrapper .container hr {
+    margin: 40px 0;
+}
+
+.footer-top-full .wrapper .container .footer-bottom {
+    text-align: center;
+}
+
+.footer-top-full .wrapper .container .footer-bottom p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #999999;
+}
+
+.scroll-top-full .scroll-top {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 50px;
+    right: 100px;
+    /* right: 83; */
+    z-index: 999;
+    width: 32px;
+    height: 32px;
+    background-color: var(--blue);
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* style form search */
+
+
+/* responsive  */
+@media screen and (min-width: 1200px) {
+    .wrapper {
+        max-width: 1160px;
+    }
+
+    /* best job full  */
+    .best-job-full .wrapper .container .list__job__card .card__item .card__item-title-right {
+        min-width: 65px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.9px) {
+    .wrapper {
+        max-width: 960px;
+    }
+
+    /* list job card  */
+    .best-job-full .wrapper .container .list__job__card .card__item {
+        width: calc(50% - 32px);
+    }
+
+    /* list job card  */
+}
+
+@media (min-width: 768px) and (max-width: 991.9px) {
+    .wrapper {
+        max-width: 720px;
+    }
+
+    /* form search layout  */
+    .form-search-layout .wrapper .container .form-search {
+        flex-wrap: wrap;
+    }
+
+    .form-search-layout .wrapper .container .form-search .form-search-input,
+    .form-search-layout .wrapper .container .form-search .form-select-input {
+        width: 100%;
+    }
+
+    .form-search-layout .wrapper .container .form-search .form-search-button {
+        width: 100%;
+    }
+
+    /* form search layout  */
+
+    /* best-job-full */
+    .best-job-full .wrapper .container .best-job-title h2 {
+        font-size: 28px;
+    }
+
+    .best-job-full .wrapper .container .best-job-title .best-job-title-right a {
+        font-size: 12px;
+    }
+
+    /* best-job-full */
+
+    /* list job card  */
+    .best-job-full .wrapper .container .list__job__card .card__item {
+        width: calc(50% - 32px);
+    }
+
+    .best-job-full .wrapper .container .list__job__card .card__item .card__item-title .card__item-title-left span {
+        font-size: 14px;
+        max-width: 160px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .best-job-full .wrapper .container .list__job__card .card__item .card__item-bonus p {
+        font-size: 12px;
+    }
+
+    .best-job-full .wrapper .container .list__job__card .card__item .card__item-site span {
+        font-size: 10px;
+    }
+
+    /* list job card  */
+
+    /* why-choose-full */
+    .why-choose-full .wrapper .container .why-choose {
+        flex-wrap: wrap;
+    }
+
+    .why-choose-full .wrapper .container .why-choose .why-choose-job,
+    .why-choose-full .wrapper .container .why-choose .why-choose-salary,
+    .why-choose-full .wrapper .container .why-choose .why-choose-network {
+        width: 100%;
+    }
+
+    /* why-choose-full */
+
+    /* partner full  */
+    .partner-full .wrapper .container .partner {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    /* partner full  */
+
+    /* footer  */
+    .footer-top-full .wrapper .container .footer-top {
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 150px;
+    }
+
+    .footer-top-full .wrapper .container .footer-top .footer-top-logo,
+    .footer-top-full .wrapper .container .footer-top .footer-top-menu,
+    .footer-top-full .wrapper .container .footer-top .footer-top-myaccount {
+        width: calc(50% - 10px);
+    }
+
+    .footer-top-full .wrapper .container .footer-top .footer-top-address,
+    .footer-top-full .wrapper .container .footer-top .footer-top-contact {
+        width: calc(25% - 10px);
+    }
+
+    /* footer  */
+    .scroll-top-full {
+        display: none;
+    }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.7px) {
+
+    /* header  */
+    .wrapper {
+        max-width: 560px;
+    }
+
+    .header .wrapper .header__container .header__right {
+        display: none;
+    }
+
+    .header .wrapper .header__container {
+        justify-content: center;
+    }
+
+    /* header  */
+
+    /* form-search-layout */
+    .form-search-layout .wrapper .container .form-search {
+        flex-wrap: wrap;
+    }
+
+    .form-search-layout .wrapper .container .form-search .form-search-input,
+    .form-search-layout .wrapper .container .form-search .form-select-input {
+        width: 100%;
+    }
+
+    .form-search-layout .wrapper .container .form-search .form-search-button {
+        width: 100%;
+    }
+
+    .form-search-layout .wrapper .container .recommend {
+        font-size: 12px;
+    }
+
+    /* form-search-layout */
+
+    /* best-job-full */
+    .best-job-full .wrapper .container .best-job-title h2 {
+        font-size: 24px;
+    }
+
+    .best-job-full .wrapper .container .best-job-title .best-job-title-right a {
+        font-size: 10px;
+    }
+
+    .best-job-full .wrapper .container .list__job__card .card__item {
+        width: calc(100% - 32px);
+    }
+
+    /* best-job-full */
+    /* why-choose-full */
+    .why-choose-full .wrapper .container .why-choose {
+        flex-wrap: wrap;
+    }
+
+    .why-choose-full .wrapper .container .why-choose .why-choose-job,
+    .why-choose-full .wrapper .container .why-choose .why-choose-salary,
+    .why-choose-full .wrapper .container .why-choose .why-choose-network {
+        width: 100%;
+    }
+
+    /* why-choose-full */
+
+    /* partner full  */
+    .partner-full .wrapper .container .partner {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    /* partner full  */
+
+    /* <!-- start work-process  --> */
+    .work-process-full .wrapper .container .work-process .work-process-list {
+        flex-wrap: wrap;
+    }
+
+    .work-process-full .wrapper .container .work-process .work-process-list .work-process-item {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    /* <!-- start work-process  --> */
+
+    /* contact-banner-full */
+    .contact-banner-full .contact-banner .contact-banner-left {
+        padding-left: 20px;
+        align-items: center;
+    }
+
+    .contact-banner-full .wrapper .container .contact-banner .contact-banner-left .title h3 {
+        font-size: 16px;
+    }
+
+    .contact-banner-full .wrapper .container .contact-banner .contact-banner-left .title p {
+        font-size: 10px;
+    }
+
+    .contact-banner-full .wrapper .container .contact-banner .contact-banner-right {
+        width: 200px;
+    }
+
+    .contact-banner-full .wrapper .container .contact-banner .contact-banner-right a {
+        font-size: 12px;
+        /* padding: 4px 8px; */
+    }
+
+    /* contact-banner-full */
+
+    /* contact-search-full */
+    .contact-search-full .wrapper .container .contact-search {
+        flex-wrap: wrap;
+    }
+
+    .contact-search-full .wrapper .container .contact-search .contact-search-left {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .contact-search-full .wrapper .container .contact-search .contact-search-right {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    /* contact-search-full */
+
+    .footer-top-full {
+        padding-top: 120px;
+    }
+
+    /* footer  */
+    .footer-top-full .wrapper .container .footer-top {
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 150px;
+    }
+
+    .footer-top-full .wrapper .container .footer-top .footer-top-logo,
+    .footer-top-full .wrapper .container .footer-top .footer-top-menu,
+    .footer-top-full .wrapper .container .footer-top .footer-top-myaccount {
+        width: calc(50% - 10px);
+    }
+
+    .footer-top-full .wrapper .container .footer-top .footer-top-address,
+    .footer-top-full .wrapper .container .footer-top .footer-top-contact {
+        width: calc(25% - 10px);
+    }
+
+    .footer-top-full .wrapper .container .footer-bottom p {
+        font-size: 14px;
+    }
+
+    /* footer  */
+
+    .scroll-top-full {
+        display: none;
+    }
+
+
+}
+
+/* responsive  */
